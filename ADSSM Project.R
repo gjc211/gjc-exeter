@@ -37,7 +37,7 @@ cor(characteristics$LV_FEEDER_COUNT,characteristics$Transformer_RATING)
 # Suprisingly low relationship of feeder count and total energy supplied
 
 # 3.
-load("C:/Users/greg-/AppData/Local/Temp/Temp1_Data.zip/Data/Autumn_2012.RData")
+load("Autumn_2012.RData")
 autumn_scaled <- Autumn_2012[-c(147:291)]
 autumn_scaled <- autumn_scaled %>%
   group_by(Station) %>% 
